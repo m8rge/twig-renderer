@@ -14,7 +14,7 @@ class ETwigViewRenderer extends CApplicationComponent implements IViewRenderer
     /**
      * @var string Path alias to Twig
      */
-    public $twigPathAlias = 'application.vendors.Twig';
+    public $twigPathAlias;
     /**
      * @var string Twig template files extension
      */
@@ -68,9 +68,10 @@ class ETwigViewRenderer extends CApplicationComponent implements IViewRenderer
 
     function init()
     {
-        require Yii::getPathOfAlias($this->twigPathAlias).'/Autoloader.php';
-        Yii::registerAutoloader(array('Twig_Autoloader', 'autoload'), true);
-
+	if ($this->twigPathAlias) {
+        	require Yii::getPathOfAlias($this->twigPathAlias).'/Autoloader.php';
+        	Yii::registerAutoloader(array('Twig_Autoloader', 'autoload'), true);
+	}
         $app = Yii::app();
 
         /** @var $theme CTheme */

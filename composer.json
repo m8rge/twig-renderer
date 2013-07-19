@@ -1,5 +1,5 @@
 {
-    	"name": "clip/yii-twig-renderer",
+    	"name": "clip/twig-renderer",
     	"description": "This extension allows you to use Twig templates in Yii.",
     	"authors": [
        		{

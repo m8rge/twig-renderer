@@ -1,0 +1,20 @@
+{
+    	"name": "clip/yii-twig-renderer",
+    	"description": "This extension allows you to use Twig templates in Yii.",
+    	"authors": [
+       		{
+            	"name": "Leonid Svyatov",
+            	"email": "leonid@svyatov.ru"
+        	}
+    	],
+    	"minimum-stability": "dev",
+    	"require": {
+		"php": ">=5.2.4",
+		"twig/twig": "1.13.*@dev"
+   	 },
+   	"autoload": {
+		"psr-0": {
+			"psr-0": { "ETwigViewRenderer": "" }
+		}
+	}
+}

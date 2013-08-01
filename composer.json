@@ -1,20 +1,20 @@
 {
-        "name": "m8rge/twig-renderer",
-        "description": "This extension allows you to use Twig templates in Yii.",
-        "authors": [
-                {
-        	        "name": "Alexander Makarov",
-        	        "email": "sam@rmcreative.ru"
-    	        }
-	],
-	"minimum-stability": "dev",
-	"require": {
-		"php": ">=5.2.4",
-		"twig/twig": "1.6.*"
-        },
-        "autoload": {
-		"psr-0": {
-			"psr-0": { "ETwigViewRenderer": "" }
-		}
-	}
+    "name": "m8rge/twig-renderer",
+    "description": "This extension allows you to use Twig templates in Yii.",
+    "authors": [
+        {
+            "name": "Alexander Makarov",
+            "email": "sam@rmcreative.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.4",
+        "twig/twig": "1.6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ETwigViewRenderer": ""
+        }
+    }
 }

@@ -1,16 +1,16 @@
 {
-    	"name": "clip/twig-renderer",
-    	"description": "This extension allows you to use Twig templates in Yii.",
-    	"authors": [
-       		{
-            	"name": "Leonid Svyatov",
-            	"email": "leonid@svyatov.ru"
-        	}
-    	],
-    	"minimum-stability": "dev",
-    	"require": {
+    "name": "m8rge/twig-renderer",
+    "description": "This extension allows you to use Twig templates in Yii.",
+    "authors": [
+   		{
+        	"name": "Alexander Makarov",
+        	"email": "sam@rmcreative.ru"
+    	}
+	],
+	"minimum-stability": "dev",
+	"require": {
 		"php": ">=5.2.4",
-		"twig/twig": "1.13.*@dev"
+		"twig/twig": "1.6.*"
    	 },
    	"autoload": {
 		"psr-0": {
